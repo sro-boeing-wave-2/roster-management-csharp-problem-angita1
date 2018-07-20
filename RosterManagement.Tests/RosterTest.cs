@@ -28,7 +28,7 @@ namespace RosterManagement.Tests
             var actual = school.Roster();
 
             var expected = new[] { "Blair", "James", "Paul" };
-            Assert.Equal(expected, actual );
+            Assert.Equal(expected, actual);
         }
 
         [Fact]
